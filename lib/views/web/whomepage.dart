@@ -5,8 +5,9 @@ class WebHomepage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      backgroundColor: Colors.blue,
+    return Scaffold(
+      backgroundColor: Color.fromARGB(26, 106, 247, 129),
+      appBar: AppBar(),
     );
   }
 }

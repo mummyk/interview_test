@@ -6,7 +6,7 @@ class MobileHomepage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      backgroundColor: Colors.blueGrey,
+      backgroundColor: Color.fromARGB(26, 106, 247, 129),
     );
   }
 }
